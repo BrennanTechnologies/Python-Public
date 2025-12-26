@@ -12,11 +12,13 @@
 - **Legacy & Reference Code:** Snapshots of early Python versions and CPython source for educational purposes.
 - **Practice & Exercises:** A wide range of practice scripts for Python concepts, from basic to advanced.
 
+
 ## Directory Highlights
 
-- `Algoritms/` – Sorting, searching, and graph algorithm scripts.
-- `Arrays/` – Array utilities and numpy experiments.
-- `Practice/` – Practice scripts, coding exercises, and notebooks.
-- `Dice-AI-main/` – Example AI project with app and tests.
-- `cpython-main/`, `python-0.9.1-main/` – Reference Python source code.
-- `Charts/`, `functions/`, `ErrorChecking/`, `Clean Up/` – Additional utilities and experiments.
+- `algoritms/` – Sorting (bubble, merge, quick, insert, random), searching, and graph algorithm scripts, organized by type (Sort, Search, Grapth).
+- `arrays/` – Array utilities, NumPy experiments, and multi-dimensional array examples.
+- `functions/` – Extensive function examples, error checking, data class demos, and small utilities.
+- `modules/` – Modular code, including error checking, maze generators, and tic-tac-toe implementations.
+- `Clean Up/` – Legacy, experimental, or refactored scripts and data files.
+- `resources/images/` – Image assets for documentation or projects.
+- Root scripts – Algorithm demos (binary search, sorting), system utilities, AI library tests, matplotlib and pandas practice, subprocess and timing utilities, and more.

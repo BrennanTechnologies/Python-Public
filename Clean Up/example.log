@@ -1,0 +1,5 @@
+DEBUG:root:Add: 10 + 5 = 15
+DEBUG:root:Add: 10 + 5 = 15
+INFO:root:Subtract: 10 - 5 = 5
+DEBUG:root:Add: 10 + 5 = 15
+INFO:root:Subtract: 10 - 5 = 5

@@ -1,0 +1,14 @@
+DEBUG:root:Add: 10 + 5 = 15
+INFO:root:Subtract: 10 - 5 = 5
+WARNING:root:Multiply: 10 * 5 = 50
+ERROR:root:Divide: 10 / 5 = 2.0
+05/04/2023 11:06:43 AM - DEBUG - Add: 10 + 5 = 15
+05/04/2023 11:06:43 AM - INFO - Subtract: 10 - 5 = 5
+05/04/2023 11:06:43 AM - WARNING - Multiply: 10 * 5 = 50
+05/04/2023 11:06:43 AM - ERROR - Divide: 10 / 5 = 2.0
+2023-05-04 11:36:55,868 - __init__ - DEBUG - Created Employee: Corey Schafer - Corey.Schafer@company.com
+2023-05-04 11:36:55,868 - __init__ - DEBUG - Created Employee: Test User - Test.User@company.com
+2023-05-04 11:37:33,315 - __init__ - DEBUG - Created Employee: Corey Schafer - Corey.Schafer@company.com
+2023-05-04 11:37:33,316 - __init__ - DEBUG - Created Employee: Test User - Test.User@company.com
+2023-05-04 11:38:49,072 - __init__ - DEBUG - Created Employee: Corey Schafer - Corey.Schafer@company.com
+2023-05-04 11:38:49,072 - __init__ - DEBUG - Created Employee: Test User - Test.User@company.com

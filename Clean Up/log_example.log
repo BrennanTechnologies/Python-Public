@@ -1,0 +1,4 @@
+DEBUG:root:Add: 10 + 5 = 15
+INFO:root:Subtract: 10 - 5 = 5
+WARNING:root:Multiply: 10 * 5 = 50
+ERROR:root:Divide: 10 / 5 = 2.0
