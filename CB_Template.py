@@ -9,8 +9,8 @@ from datetime import datetime
 # ----------------------------------------
 # MAIN:
 # ----------------------------------------
-def main(): 
-	print(" *** __main__ ***") 
+def main():
+	print(" *** __main__ ***")
 	func_name = sys._getframe().f_code.co_name
 	print("\n\t EXECUTING: ==> \t ***** " + func_name + " *****")
 
@@ -20,7 +20,7 @@ def main():
 
 	cb.write_log("Hello World!")
 	cb.write_log("An error ocurred!", "ERROR")
-	
+
 	wl = cb.write_log
 	wl("Alias of write-log function.")
 
@@ -34,7 +34,7 @@ def main():
 		print("Try")
 	except NameError:
 		print ("Name Error")
-	except TypeError: 
+	except TypeError:
 		print("Error: cannot add an int and a str")
 	except ZeroDivisionError:
 		print("Div by Zero")
@@ -54,14 +54,15 @@ def end():
 def module():
 	pass
 
-# ---------------------------------------- 
+# ----------------------------------------
 # Runtime Execution Mode:
 # ----------------------------------------
 # Run at Runtime
-if __name__=="__main__": 
+if __name__=="__main__":
 	begin()
-	main() 
+	main()
 	end()
 # Run on Import
-if __name__!="__main__": 
+if __name__!="__main__":
 	module()
+

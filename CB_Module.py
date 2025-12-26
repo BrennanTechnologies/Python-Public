@@ -13,7 +13,7 @@ def function_template(a,b):
 		print("Try")
 	except NameError:
 		print ("Name Error")
-	except TypeError: 
+	except TypeError:
 		print("Error: cannot add an int and a str")
 	except ZeroDivisionError:
 		print("Div by Zero")
@@ -49,17 +49,17 @@ result = find_sum_up_to_n(1000000)
 print(result)
 
 
-def print_function_name(): 
+def print_function_name():
 	func_name = sys._getframe().f_code.co_name
 	print("\n\t EXECUTING: ==> \t ***** " + func_name + " *****")
-	
+
 	print("\n\t EXECUTING: ==> \t ***** " + str(sys._getframe().f_code.co_name) + " *****")
 
 ### Say Hello:
 ### -----------------------------------
 def say_hello(name="World"):
 	return f"Hello {name}"
-	
+
 
 ### Write Log:
 ### -----------------------------------
@@ -68,23 +68,23 @@ def write_log(msg, cat="INFO"):
 
 	# Print Msg
 	print(msg)
-	
+
 	# Open Log File
 	log_file = "logfile.log"
 	file = open(log_file, 'a+')
-	
+
 	# Date/Time
 	today = date.today()
 	time = datetime.now()
 	time = time.strftime("%H:%M:%S")
-	
+
 	# Build Msg String
 	msg = str(time) + "\t" +str(today) + "\t" + cat + "\t" + msg + "\n"
 
 	# Write File / Close File
 	file.write(msg)
 	file.close()
-	
+
 ### Read File:
 ### -----------------------------------
 def read_file(file_name):
@@ -148,15 +148,15 @@ def binary_search(arr, n, start=0, end=None):
 		return binary_search(arr, n, start, mid - 1)
 	else:
 		return binary_search(arr, n, mid + 1, end)
-	
+
 ### Lazy Git:
 ### -----------------------------------
 def lazygit():
 	print("\n\t EXECUTING: ==> \t ***** " + str(sys._getframe().f_code.co_name) + " *****")
 
 	cmds = [
-				'git add .', 
-				'git commit -m "Sync"', 
+				'git add .',
+				'git commit -m "Sync"',
 				'git push'
 			]
 	for cmd in cmds:
