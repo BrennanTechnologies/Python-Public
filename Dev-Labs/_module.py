@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Module: _module.py
+Author: Chris Brennan - chris@brennantechnologies.com
+Company: Brennan Technologies, LLC
+Created: 2026-07-16
+Description: Shared utility functions and helpers.
+"""
+
 import sys
 import os
 import random
